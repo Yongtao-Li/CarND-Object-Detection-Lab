@@ -3,14 +3,14 @@ channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
 dependencies:
-    - python==3.6
+    - python==3.6.1
     - numpy
     - matplotlib
     - jupyter
     - pillow
     - scipy
     - ffmpeg
-    - imageio==2.1.2
+    - imageio==2.5.0
     - pip:
         - moviepy
-        - tensorflow-gpu==1.4
+        - tensorflow==1.4
